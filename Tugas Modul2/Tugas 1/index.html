@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Penjumlahan Bilangan</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Operasi Penjumlahan Bilangan</h1>
+        <form id="additionForm">
+            <div class="form-group">
+                <label for="num1">Bilangan Pertama:</label>
+                <input type="number" id="num1" name="num1" required>
+            </div>
+            <div class="form-group">
+                <label for="num2">Bilangan Kedua:</label>
+                <input type="number" id="num2" name="num2" required>
+            </div>
+            <button type="button" onclick="calculateSum()">Hitung</button>
+            <p>Hasil: <span id="result">-</span></p>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
